@@ -80,6 +80,10 @@
     border: 1px solid #00000017;
   }
 
+  .venue p {
+    white-space: nowrap;
+  }
+
   .venue div {
     display: flex;
     justify-content: center;
