@@ -1,6 +1,6 @@
-import three from "../../assets/img/group 10.png"
-import sixty from "../../assets/img/group 11.png"
-import five from "../../assets/img/group 12.png"
+import three from "../../assets/img/Group 10.png"
+import sixty from "../../assets/img/Group 11.png"
+import five from "../../assets/img/Group 12.png"
 import "./attendees.css";
 
 function Attendees() {
