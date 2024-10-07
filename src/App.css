@@ -1,0 +1,8 @@
+@font-face {
+  font-family: arabic-ramadhan;
+  src: local("Arabic Ramadhan"), url(./assets/fonts/Arabic/Arabic\ Ramadhan.ttf);
+}
+
+ul {
+  list-style-type: none;
+}

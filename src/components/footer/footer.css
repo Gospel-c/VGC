@@ -1,0 +1,139 @@
+@font-face {
+    font-family: arabic-ramadhan;
+    src: local("Arabic Ramadhan"), url(../../assets/fonts/Arabic/Arabic Ramadhan.ttf);
+  }
+
+.banner-container {
+    background-color: #FFBA0E;
+    margin-top: 80px;
+    height: 61px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow-x: hidden;
+}
+
+.banner-container p {
+    font-family: Helvetica;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.banner-container img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer {
+    background-color: #262626;
+}
+
+.footer-contents {
+    display: flex; 
+    justify-content: space-between;
+    gap: 30px;
+    padding: 80px;
+}
+
+.image-container img {
+    width: 212px;
+    height: 99.15px;
+}
+
+@media screen and (max-width:768px) {
+
+    .footer-contents {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+    .image-container img {
+        width: 117px;
+        height: 49.94px;
+        border-radius: 8px;
+    }
+}
+
+.image-container p {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Helvetica;
+}
+
+.nav-links{
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica;
+    margin-top: 40px;
+}
+
+.nav-links li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    gap: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.nav-links div{
+    width: 22px;
+    height: 22px;
+}
+
+.nav-links img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.call-to-action {
+    font-family: arabic-ramadhan;
+    font-size: 64px;
+    cursor: pointer;
+}
+
+.call-to-action p {
+    color: #FFFFFF9C;
+    width: 500px;
+}
+
+.bottom-text {
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .nav-links li{
+        justify-content: start;
+    }
+
+    .call-to-action p {
+        color: #FFFFFF9C;
+        width: 100%;
+    }
+    
+    .bottom-text {
+        font-size: 12px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-links img {
+        width: 16px;
+        height: 16px;
+    }
+
+}

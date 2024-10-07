@@ -1,0 +1,199 @@
+.tech-path {
+    background-color: #FFECFF;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 24px;
+    margin-top: 90px;
+}
+
+.hidden-image1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.hidden-image2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.paths div {
+    background-color: #ffffff;
+    font-size: 27px;
+    border-radius: 40.7px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 10px 15px 10px 15px;
+    margin-left: 20px;
+    border: 1.4px solid #00000017;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.tech-path h2 {
+    font-size: 28px;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+    .talk {
+        width: 579px;
+        height: 227px;
+        object-fit: contain;
+    }
+}
+
+.cta-tech {
+    background-color: #FFC5FE;
+    width: 295.48px;
+    height: 48px;
+    border-radius: 43.64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin: 40px auto 20px auto;
+}
+
+.tech-cta-btn1, .tech-cta-btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tech-cta-btn1 {
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 30px;
+    color: #000000;
+
+}
+
+.tech-cta-btn2 {
+    background-color: #8A2488;
+    border-radius: 19.32px;
+    width: 155.22px;
+    height: 38.03px;
+    margin-right: 5px;
+    color: #FFF;
+}
+
+.tech-cta-btn1-img {
+    width: 18.7px;
+    height: 18.7px;
+}
+
+.tech-cta-btn2-img {
+    width: 15.5px;
+    height: 15.5px;
+}
+
+@media screen and (max-width: 768px) {
+    .tech-path {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    .tech-path h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .cta-tech {
+        z-index: 10;
+    }
+
+    .tech-cta-btn1 {
+        white-space: nowrap;
+        margin-left: 10px;
+    }
+    
+
+    .talk {
+        width: 233px;
+        height: 57.52px;
+    }
+
+    .hidden-image1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .hidden-image2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 70px;
+        height: 70px;
+    }
+
+    .paths {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paths div {
+        background-color: #FFD7FE;
+        font-size: 16px;
+        border-radius: 40.7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        padding: 10px 15px 10px 15px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .cta-tech {
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .cta-tech {
+        width: 550px;
+        height: 77px;
+    }
+
+    .tech-cta-btn2 {
+        width: 249px;
+        height: 61px;
+        border-radius: 31px;
+        margin-right: 8px;
+        font-size: 24px;
+    }
+
+    .tech-cta-btn1 {
+        font-size: 24px;
+        margin-left: 30px;
+    }
+
+    .tech-cta-btn1-img, .tech-cta-btn2-img {
+        width: 30px;
+        height: 30px;
+    }
+}

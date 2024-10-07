@@ -1,0 +1,62 @@
+@font-face {
+    font-family: arabic-ramadhan;
+    src: local("Arabic Ramadhan"), url(../../assets/fonts/Arabic/Arabic Ramadhan.ttf);
+  }
+
+  .past-events {
+    margin-bottom: 90px;
+  }
+
+.past-event__heading {
+    font-family: arabic-ramadhan;
+    font-size: 127.38px;
+    font-weight: 300;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-container img {
+    object-fit: cover;
+    width: 545px;
+    height: 362px;
+}
+
+.img-container p {
+    font-size: 28px;
+    font-family: Helvetica;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .img-container {
+       flex-direction: column;
+    }
+
+    .img-container img {
+        width: 319.5px;
+        height: 179.32px;
+    }
+
+    .past-event__heading {
+        font-family: arabic-ramadhan;
+        font-size: 64px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .img-container p {
+        font-size: 15.85px;
+        font-family: Helvetica;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    
+}

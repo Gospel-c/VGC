@@ -1,0 +1,163 @@
+@font-face {
+    font-family: helvetica;
+    src: local("HelveticaNeueBlack"), url(./assets/fonts/Helvetica/HelveticaNeueBlack.otf);
+  }
+  @font-face {
+    font-family: helveticaBold;
+    src: local("HelveticaNeueMedium"), url(./assets/fonts/Helvetica/HelveticaNeueMedium.otf);
+  }
+  @font-face {
+    font-family: helveticaMedium;
+    src: local("HelveticaNeueMedium"), url(./assets/fonts/Helvetica/HelveticaNeueRoman.otf);
+  }
+
+  @font-face {
+    font-family: arabic-ramadhan;
+    src: local("Arabic Ramadhan"), url(../../assets/fonts/Arabic/Arabic Ramadhan.ttf);
+  }
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 140px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        margin-top: 80px;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.images {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.vector1 {
+    position: absolute;
+    top: -80px;
+    left: -50px;
+    z-index: -20;
+}
+
+.vector1 img {
+    width: 600.75px;
+    height: 531px;
+}
+
+.vector2 {
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
+
+.vector2 img {
+    width: 120px;
+    height: 446px;
+}
+
+
+img {
+    width: 260.25px;
+    height: 496.82px;
+    border-radius: 21.92px;
+}
+
+.list img {
+    width: 18px;
+    height: 18px;
+}
+
+.heading {
+    font-family: Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.heading span {
+    font-size: 64px;
+    font-family: arabic-ramadhan;
+    font-weight: 400;
+}
+
+.text {
+    font-family: Helvetica;
+    font-weight: 400;
+    background-color: #FFF9EA;
+    border-radius: 29px;
+    padding: 20px;
+}
+
+.paragraph {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.list {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.list p {
+    display: inline;
+}
+
+.list div{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 142px;
+        height: 225px;
+    }
+
+    .vector1 img {
+        width: 300.75px;
+        height: 300px;
+    }
+
+    .vector2 img {
+        width: 75px;
+        height: 220px;
+    }
+
+    .vector1 {
+        left: 0;
+        top: -40px;
+        z-index: -20;
+    }
+
+    .vector2 {
+        right: -20px;
+    }
+
+    .heading {
+        font-size: 48px;
+    }
+
+    .heading span {
+        font-size: 48px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .list p {
+        font-size: 16px;
+    }
+}

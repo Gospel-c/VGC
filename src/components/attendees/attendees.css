@@ -1,0 +1,28 @@
+.attendees {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.attendees img {
+    width: 350px;
+    height: 240.34px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .attendees {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .attendees img {
+        width: 234.06px;
+        height: 168.79px;
+        object-fit: contain;
+    } 
+}

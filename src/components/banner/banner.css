@@ -1,0 +1,49 @@
+@font-face {
+    font-family: helvetica;
+    src: local("HelveticaNeueBlack"), url(./assets/fonts/Helvetica/HelveticaNeueBlack.otf);
+  }
+  @font-face {
+    font-family: helveticaMedium;
+    src: local("HelveticaNeueMedium"), url(./assets/fonts/Helvetica/HelveticaNeueMedium.otf);
+  }
+  @font-face {
+    font-family: helveticaRoman;
+    src: local("HelveticaNeueRoman"), url(./assets/fonts/Helvetica/HelveticaNeueRoman.otf);
+  }
+
+.container {
+    background-color: #FFBA0E;
+    margin-top: 80px;
+    height: 61px;
+    transform: rotate(-5deg);
+    position: relative;
+    left: -10%;
+    right: -10%;
+    width: 120vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 40px;
+  }
+}
+
+.banner {
+    font-family: helvetica;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.banner img {
+    width: 25px;
+    height: 25px;
+}
