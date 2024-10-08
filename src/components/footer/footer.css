@@ -68,32 +68,29 @@
     font-family: Helvetica;
 }
 
-.nav-links{
+.footer-links{
     color: white;
     font-size: 20px;
     font-family: Helvetica;
     margin-top: 40px;
 }
 
-.nav-links li{
+.footer-links li{
     display: flex;
-    justify-content: center;
-    align-items: center;
     white-space: nowrap;
-    gap: 20px;
+    gap: 10px;
     margin-bottom: 30px;
     cursor: pointer;
 }
 
-.nav-links div{
-    width: 22px;
+.footer-links div{
     height: 22px;
+    display: block;
 }
 
-.nav-links img {
-    width: 100%;
+.footer-links img {
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .call-to-action {
@@ -115,7 +112,7 @@
 }
 
 @media screen and (max-width:768px) {
-    .nav-links li{
+    .footer-links li{
         justify-content: start;
     }
 

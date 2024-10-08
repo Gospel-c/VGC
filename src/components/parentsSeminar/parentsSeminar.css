@@ -92,6 +92,7 @@
     width: 155.22px;
     height: 38.03px;
     margin-right: 5px;
+    color: #000000;
 }
 
 .parents-cta-btn1-img {
@@ -116,6 +117,7 @@
         border-radius: 31px;
         margin-right: 8px;
         font-size: 20px;
+        
     }
 
     .parents-cta-btn1 {
@@ -170,6 +172,5 @@
 
     .parents-cta-btn1 {
         white-space: nowrap;
-        margin-left: 10px;
     }
 }

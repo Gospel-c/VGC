@@ -23,7 +23,7 @@
     gap: 30px;
 }
 
-.sponsors-img img {
+.sponsors-img svg {
     width: 222px;
     height: 143.21px;
 }
@@ -44,7 +44,7 @@
         font-weight: 300;
     }
 
-    .sponsors-img img {
+    .sponsors-img svg {
         width: 104.25px;
         height: 67.29px;
         object-fit: cover;

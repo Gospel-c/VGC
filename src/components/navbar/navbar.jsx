@@ -1,12 +1,10 @@
-import './navbar.css';
 import logo from '../../assets/img/logo.png';
 import solar_ticket from '../../assets/img/solar_ticket-bold-duotone.png';
-import menu_icon from '../../assets/img/menu-icon.png';
-import close from '../../assets/img/Close.svg';
-import { useState } from 'react';
+import { useState } from "react";
+import "./Navbar.css"; 
 
-function Navbar({ about, speakers, past }) {
-  const [navbar, setNavbar] = useState(false);
+const Navbar = ({ about, speakers, past }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -15,63 +13,37 @@ function Navbar({ about, speakers, past }) {
      });
     };
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-  <nav>
-    <div className='logo'>
+    <nav className="navbar">
+      <div className="logo">
         <img className='logo-img' src={logo} alt="logo" />
-    </div>
-    <div className='menu-items'>
-        <ul>
-            <li onClick={() => scrollToSection(about)}>About</li>
-            <li onClick={() => scrollToSection(speakers)}>Speakers</li>
-            <li onClick={() => scrollToSection(past)}>Past Events</li>
-        </ul>
-    </div>
-    <div className='right'>
+      </div>
+      
+      <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
+        <li onClick={() => scrollToSection(about)}>About</li>
+        <li onClick={() => scrollToSection(speakers)}>Speakers</li>
+        <li onClick={() => scrollToSection(past)}>Past Events</li>
+      </ul>
+      
+      <div className="nav-button">
         <p>Get Your Ticket!</p><img className='icon' src={solar_ticket}></img>
-    </div>
-    <div className="responsive-menu">
-          <button
-            className="menu-icon"
-            onClick={() => setNavbar(!navbar)}
-        >
-            {navbar ? (
-                <img src={close} width={30} height={30} className="menu-icon" alt="close" />
-            ) : (
-                <img
-                    src={menu_icon}
-                    width={30}
-                    height={30}
-                    alt="hamburger"
-                    className="menu-icon"
-                />
-            )}
-        </button>
-    </div>
-    {
-      navbar && (
-        <div className="hamburger">
-            <button
-                className="hamburger-button"
-                onClick={() => setNavbar(false)}
-            >
-                <img src={close} width={30} height={30} alt="close" />
-            </button>
-            <div className='hamburger-items'>
-                <ul>
-                    <li>About</li>
-                    <li>Speakers</li>
-                    <li>Past Events</li>
-                </ul>
-            </div>
-            <div className='hamburger-right'>
-              <p>Get Your Ticket!</p><img className='icon' src={solar_ticket}></img>
-            </div>  
-        </div>
-      )
-    }
-  </nav>
-  )
-}
+      </div>
+
+      <div className="hamburger-icon" onClick={toggleMenu}>
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.535714" y="0.535714" width="28.9286" height="28.9286" rx="9.10714" fill="#FFD7FE"/>
+          <rect x="0.535714" y="0.535714" width="28.9286" height="28.9286" rx="9.10714" stroke="#8A2488" strokeWidth="1.07143"/>
+          <path d="M9 9H21.5" stroke="#8A2488" strokeWidth="0.833333" strokeLinecap="round"/>
+          <path d="M9 15H21.5" stroke="#8A2488" strokeWidth="0.833333" strokeLinecap="round"/>
+          <path d="M9 21H21.5" stroke="#8A2488" strokeWidth="0.833333" strokeLinecap="round"/>
+        </svg>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;

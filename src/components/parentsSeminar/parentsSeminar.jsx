@@ -1,9 +1,8 @@
 import patternTop from "../../assets/img/top-image.png";
 import patternBottom from "../../assets/img/bottom-image.png";
 import teenTalk from "../../assets/img/parents-img.png";
-import solarTicket from "../../assets/img/solar_ticket-bold-duotone.png"
-import arrowUp from "../../assets/img/arrow-up-line.png"
 import "./parentsSeminar.css";
+import ParentsBtn from "../parentBtn/parentBtn";
 function ParentsSeminar() {
     return (
         <div className="parents-seminar">
@@ -15,10 +14,7 @@ function ParentsSeminar() {
                 <div>The Ideal Islamic home</div>
                 <div>Islamic values</div>
             </div>
-            <div className="cta-parents">
-                <button className="parents-cta-btn1">Sponsor this Event <img className="parents-cta-btn1-img" src={arrowUp} alt="" /></button>
-                <button className="parents-cta-btn2">Get Your Ticket! <img className="parents-cta-btn2-img" src={solarTicket} alt="" /></button>
-            </div>
+            <ParentsBtn />
             <img
                 src={patternTop}
                 alt="Decorative Pattern"
