@@ -1,7 +1,7 @@
 import logo from '../../assets/img/logo.png';
 import solar_ticket from '../../assets/img/solar_ticket-bold-duotone.png';
 import { useState } from "react";
-import "./Navbar.css"; 
+import "./navbar.css"; 
 
 const Navbar = ({ about, speakers, past }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
