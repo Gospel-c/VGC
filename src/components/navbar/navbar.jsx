@@ -23,14 +23,16 @@ const Navbar = ({ about, speakers, past }) => {
         <img className='logo-img' src={logo} alt="logo" />
       </div>
       
-      <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
-        <li onClick={() => scrollToSection(about)}>About</li>
-        <li onClick={() => scrollToSection(speakers)}>Speakers</li>
-        <li onClick={() => scrollToSection(past)}>Past Events</li>
-      </ul>
-      
-      <div className="nav-button">
-        <p>Get Your Ticket!</p><img className='icon' src={solar_ticket}></img>
+      <div className={`nav-menu-container ${isMenuOpen ? "active" : ""}`}>
+        <ul className="nav-links">
+          <li onClick={() => scrollToSection(about)}>About</li>
+          <li onClick={() => scrollToSection(speakers)}>Speakers</li>
+          <li onClick={() => scrollToSection(past)}>Past Events</li>
+        </ul>
+
+        <button className="nav-button">
+          <p>Get Your Ticket!</p><img className='icon' src={solar_ticket}></img>
+        </button>
       </div>
 
       <div className="hamburger-icon" onClick={toggleMenu}>
