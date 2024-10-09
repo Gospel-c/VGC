@@ -11,6 +11,19 @@
     src: local("HelveticaNeueRoman"), url(./assets/fonts/Helvetica/HelveticaNeueRoman.otf);
   }
 
+  .banner-marquee-con {
+    position: relative;
+  }
+
+  .banner-marquee {
+    --gap: 20px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+  }
+
 .container {
     background-color: #FFBA0E;
     margin-top: 80px;
@@ -24,6 +37,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
+    flex-shrink: 0;
+    gap: var(--gap);
+    min-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -46,4 +63,13 @@
 .banner img {
     width: 25px;
     height: 25px;
+}
+
+.animation-enabler .banner {
+  animation: scroll 16s linear infinite;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100vw); }
 }

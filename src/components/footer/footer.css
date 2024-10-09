@@ -3,7 +3,20 @@
     src: local("Arabic Ramadhan"), url(../../assets/fonts/Arabic/Arabic Ramadhan.ttf);
   }
 
-.banner-container {
+  .footer-marquee-con {
+    position: relative;
+  }
+
+  .footer-marquee {
+    --gap: 20px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+  }
+
+.footer-container {
     background-color: #FFBA0E;
     margin-top: 80px;
     height: 61px;
@@ -14,7 +27,7 @@
     overflow-x: hidden;
 }
 
-.banner-container p {
+.footer-container p {
     font-family: Helvetica;
     font-size: 24px;
     display: flex;
@@ -25,7 +38,7 @@
     white-space: nowrap;
 }
 
-.banner-container img {
+.footer-container img {
     width: 25px;
     height: 25px;
 }
@@ -119,6 +132,7 @@
     .call-to-action p {
         color: #FFFFFF9C;
         width: 100%;
+        font-size: 60px;
     }
     
     .bottom-text {
@@ -134,3 +148,12 @@
     }
 
 }
+
+.animation-enabled .footer-banner {
+    animation: scroll 16s linear infinite;
+  }
+  
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100vw); }
+  }

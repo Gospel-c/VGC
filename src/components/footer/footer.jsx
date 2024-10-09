@@ -1,8 +1,5 @@
 import "./footer.css"
 import dot from "../../assets/img/imgBg.png"
-import solarTicket from "../../assets/img/solar_ticket-bold-duotone.png"
-import arrowUp from "../../assets/img/arrow-up-line.png"
-import arrowWhite from "../../assets/img/arrow-white.png"
 import footerLogo from "../../assets/img/footer-logo.png"
 import { useEffect, useState } from "react"
 import ParentsBtn from "../parentBtn/parentBtn"
@@ -34,8 +31,15 @@ function Footer({ about, speakers, past }) {
 
     return (
         <>
-            <div className="banner-container">
-                <p className="banner">VGC Islamic Community <span><img src={dot} alt="" /></span> Get your tickets now <span><img src={dot} alt="" /></span> Don’t miss this years Tech edition <span><img src={dot} alt="" /></span> VGCIC Teen Talk Room </p>
+            <div className='footer-marquee-con'>
+                <section className='animation-enabled'>
+                    <div className='footer-marquee'>
+                        <div className="footer-container">
+                            <p className="footer-banner">VGC Islamic Community <span><img src={dot} alt="" /></span> Get your tickets now <span><img src={dot} alt="" /></span> Don’t miss this years Tech edition <span><img src={dot} alt="" /></span> VGCIC Teen Talk Room VGC Islamic Community <span><img src={dot} alt="" /></span> Get your tickets now <span><img src={dot} alt="" /></span> Don’t miss this years Tech edition <span><img src={dot} alt="" /></span> VGCIC Teen Talk Room </p>
+                            <p className="footer-banner">VGC Islamic Community <span><img src={dot} alt="" /></span> Get your tickets now <span><img src={dot} alt="" /></span> Don’t miss this years Tech edition <span><img src={dot} alt="" /></span> VGCIC Teen Talk Room VGC Islamic Community <span><img src={dot} alt="" /></span> Get your tickets now <span><img src={dot} alt="" /></span> Don’t miss this years Tech edition <span><img src={dot} alt="" /></span> VGCIC Teen Talk Room </p>
+                        </div>
+                    </div>
+                </section>
             </div>
             <div className="footer">
                 <div className="footer-contents">
