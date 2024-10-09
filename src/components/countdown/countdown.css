@@ -20,11 +20,13 @@
 @media screen and (max-width: 768px) {
   .countdown-container {
     flex-direction: column;
-    margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
-    padding-left: 30px;
-    padding-bottom: 20px;
+    /* margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-bottom: 20px; */
 
   }
 }
@@ -36,17 +38,11 @@
     font-family: arabic-ramadhan;
     width: auto;
     border-radius: 16px;
-    padding: 50px;
+    padding: 30px;
   }
 
   @media screen and (max-width: 768px) {
-    .countdown {
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
+    
   }
 
   .countdown-text h2 {
@@ -96,7 +92,7 @@
   .time {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
   }
   
   .time-block {
@@ -137,6 +133,7 @@
 
     .time-block {
       height: 100px;
+      width: auto;
       padding: 10px;
     }
 
@@ -176,6 +173,16 @@
       height: 22px;
     }
 
+  }
+
+  @media screen and (max-width: 420px) {
+    .time-value {
+      font-size: 22px;
+    }
+
+    .countdown {
+      padding: 10px;
+    }
   }
   
   .countdown-ended {
