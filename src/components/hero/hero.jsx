@@ -11,12 +11,15 @@ function Hero() {
       <header className="hero">
         <div className="edition">
             <img className="star" src={star} alt="star icon"/>
-            <p className="edition-text">12th Edition coming up in 110 days</p>
+            <p className="edition-text">11th Edition coming up in 110 days</p>
             <img className="star" src={star} alt="star icon" />
         </div>
-        <img className="vgcic" src={vgcic} />
-        <img className="talk-room" src={talkRoom} />
-        <p className="points">Islam <span><img src={dot} alt="" /></span> Deen <span><img src={dot} alt="" /></span> Grow <span><img src={dot} alt="" /></span> Skills <span><img src={dot} alt="" /></span><br /> Impact <span><img src={dot} alt="" /></span> Learn <span><img src={dot} alt="" /></span> Leaders <span><img src={dot} alt="" /></span> Tech</p>
+        {/* <img className="vgcic" src={vgcic} /> */}
+        <div className="vgcic-con">
+            <p className="vgcic">VGCIC</p>
+            <img className="talk-room" src={talkRoom} />
+        </div>
+        <p className="points">Islam <span><img src={dot} alt="" /></span> Deen <span><img src={dot} alt="" /></span> Growth <span><img src={dot} alt="" /></span> Skills <span><img src={dot} alt="" /></span><br /> Impact <span><img src={dot} alt="" /></span> Learn <span><img src={dot} alt="" /></span> Leaders <span><img src={dot} alt="" /></span> Tech</p>
         <div className="cta">
             <button className="cta-btn1">Sponsor <img className="cta-btn1-img" src={arrowUp} alt="" /></button>
             <button className="cta-btn2">Get Your Ticket! <img className="cta-btn2-img" src={solarTicket} alt="" /></button>

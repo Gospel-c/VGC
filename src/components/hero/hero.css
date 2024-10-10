@@ -42,13 +42,20 @@
     height: 11.35px;
 }
 
-.vgcic {
-    width: 190px;
-    height: 77px;
-    display: block;
-    text-align: center;
-    margin: auto;
+.vgcic-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.vgcic {
+    /* width: 190px;
+    height: 77px; */
+    /* margin: auto; */
+    font-size: 64px;
+}
+
 .talk-room {
     width: 228px;
     height: 65.18px;
@@ -59,6 +66,7 @@
        width: 357px;
        height: 145px;
        display: inline;
+       font-size: 120px;
     }
 
     .talk-room {
@@ -103,6 +111,10 @@
 @media screen and (min-width: 768px) {
     .points br {
         display: none;
+    }
+
+    .vgcic-con {
+        flex-direction: row;
     }
 
     .points {

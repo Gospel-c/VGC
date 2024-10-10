@@ -1,10 +1,14 @@
 import "./imgSlider.css"; // Import the CSS file
-import carousel1 from "../../assets/img/carousel1.png";
+import carousel1 from "../../assets/img/frame-12.png";
+import carousel2 from "../../assets/img/frame-10.png";
+import carousel3 from "../../assets/img/frame-11.png";
+import carousel4 from "../../assets/img/frame-14.png";
 
 const images = [
   carousel1,  // Replace with your image paths
-  carousel1,
-  carousel1,
+  carousel2,
+  carousel3,
+  carousel4,
 ];
 
 const ImageSlider = () => {
@@ -17,19 +21,19 @@ const ImageSlider = () => {
               <img src={carousel1} alt="" />
             </div>
             <div className=" marquee__item">
-              <img src={carousel1} alt="" />
+              <img src={carousel2} alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src={carousel3} alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src={carousel4} alt="" />
             </div>
             <div className=" marquee__item">
               <img src={carousel1} alt="" />
             </div>
             <div className=" marquee__item">
-              <img src={carousel1} alt="" />
-            </div>
-            <div className=" marquee__item">
-              <img src={carousel1} alt="" />
-            </div>
-            <div className=" marquee__item">
-              <img src={carousel1} alt="" />
+              <img src={carousel2} alt="" />
             </div>
           </ul>
 
@@ -38,19 +42,19 @@ const ImageSlider = () => {
               <img src={carousel1} alt="" />
             </div>
             <div className=" marquee__item">
-              <img src={carousel1} alt="" />
+              <img src={carousel2} alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src={carousel3} alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src={carousel4} alt="" />
             </div>
             <div className=" marquee__item">
               <img src={carousel1} alt="" />
             </div>
             <div className=" marquee__item">
-              <img src={carousel1} alt="" />
-            </div>
-            <div className=" marquee__item">
-              <img src={carousel1} alt="" />
-            </div>
-            <div className=" marquee__item">
-              <img src={carousel1} alt="" />
+              <img src={carousel2} alt="" />
             </div>
           </ul>
         </div>
