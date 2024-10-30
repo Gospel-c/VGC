@@ -34,7 +34,7 @@ function TechPath() {
             </div>
             <div className="cta-tech">
                 <button className="tech-cta-btn1">{isMobile ? 'Sponsor' : 'Sponsor this Event'} <img className="tech-cta-btn1-img" src={arrowUp} alt="" /></button>
-                <button className="tech-cta-btn2">Get Your Ticket! <img className="tech-cta-btn2-img" src={solarTicket} alt="" /></button>
+                <a href="https://tix.africa/discover/vgcicteens" target="_blank"><button className="tech-cta-btn2">Get Your Ticket! <img className="tech-cta-btn2-img" src={solarTicket} alt="" /></button></a>
             </div>
             <img
                 src={patternTop}

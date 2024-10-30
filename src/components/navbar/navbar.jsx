@@ -20,7 +20,7 @@ const Navbar = ({ about, speakers, past }) => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img className='logo-img' src={logo} alt="logo" />
+        <a href="https://vgcicteentalkroom.org/"><img className='logo-img' src={logo} alt="logo" /></a>
       </div>
       
       <div className={`nav-menu-container ${isMenuOpen ? "active" : ""}`}>
@@ -30,9 +30,11 @@ const Navbar = ({ about, speakers, past }) => {
           <li onClick={() => scrollToSection(past)}>Past Events</li>
         </ul>
 
-        <button className="nav-button">
-          <p>Get Your Ticket!</p><img className='icon' src={solar_ticket}></img>
-        </button>
+        <a href="https://tix.africa/vgcicteens" target='_blank'>
+          <button className="nav-button">
+            <p>Get Your Ticket!</p><img className='icon' src={solar_ticket}></img>
+          </button>
+        </a>
       </div>
 
       <div className="hamburger-icon" onClick={toggleMenu}>

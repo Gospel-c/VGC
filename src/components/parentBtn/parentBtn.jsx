@@ -23,7 +23,7 @@ function ParentsBtn() {
     return (
         <div className="cta-parents">
             <button className="parents-cta-btn1">{isMobile ? 'Sponsor' : 'Sponsor this Event'} <img className="parents-cta-btn1-img" src={arrowUp} alt="" /></button>
-            <button className="parents-cta-btn2">Get Your Ticket! <img className="parents-cta-btn2-img" src={solarTicket} alt="" /></button>
+            <a href="https://tix.africa/discover/vgcicteens" target="_blank"><button className="parents-cta-btn2">Get Your Ticket! <img className="parents-cta-btn2-img" src={solarTicket} alt="" /></button></a>
         </div>
     )
 }

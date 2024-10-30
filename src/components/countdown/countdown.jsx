@@ -49,7 +49,9 @@ const Countdown = ({ targetDate }) => {
                     <p>28th Dec 2024</p>
                 </div>
             </div>
+            <a href="https://tix.africa/discover/vgcicteens" target='_blank'>
             <button className="cta-btn2">Get your Ticket! <img className="cta-btn2-img" src={solarTicket} alt="" /></button>
+            </a>
         </div>
         <div className="countdown">
             <div className="time">

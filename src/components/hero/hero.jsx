@@ -22,7 +22,9 @@ function Hero() {
         <p className="points">Islam <span><img src={dot} alt="" /></span> Deen <span><img src={dot} alt="" /></span> Growth <span><img src={dot} alt="" /></span> Skills <span><img src={dot} alt="" /></span><br /> Impact <span><img src={dot} alt="" /></span> Learn <span><img src={dot} alt="" /></span> Leaders <span><img src={dot} alt="" /></span> Tech</p>
         <div className="cta">
             <button className="cta-btn1">Sponsor <img className="cta-btn1-img" src={arrowUp} alt="" /></button>
+            <a href="https://tix.africa/discover/vgcicteens" target="_blank">
             <button className="cta-btn2">Get Your Ticket! <img className="cta-btn2-img" src={solarTicket} alt="" /></button>
+            </a>
         </div>
         {/* <div className="mt-8">
             <div className="flex overflow-x-scroll space-x-4 p-4"> */}
