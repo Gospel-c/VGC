@@ -33,7 +33,7 @@ function TechPath() {
                 <div>Project Management</div>
             </div>
             <div className="cta-tech">
-                <button className="tech-cta-btn1">{isMobile ? 'Sponsor' : 'Sponsor this Event'} <img className="tech-cta-btn1-img" src={arrowUp} alt="" /></button>
+                <a href="mailto:vgcicteentalkroom@gmail.com" target="_blank" rel="noopener noreferrer"><button className="tech-cta-btn1">{isMobile ? 'Sponsor' : 'Sponsor this Event'} <img className="tech-cta-btn1-img" src={arrowUp} alt="" /></button></a>
                 <a href="https://tix.africa/discover/vgcicteens" target="_blank"><button className="tech-cta-btn2">Get Your Ticket! <img className="tech-cta-btn2-img" src={solarTicket} alt="" /></button></a>
             </div>
             <img

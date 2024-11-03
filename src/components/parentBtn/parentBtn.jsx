@@ -22,7 +22,7 @@ function ParentsBtn() {
   }, []);
     return (
         <div className="cta-parents">
-            <button className="parents-cta-btn1">{isMobile ? 'Sponsor' : 'Sponsor this Event'} <img className="parents-cta-btn1-img" src={arrowUp} alt="" /></button>
+            <a href="mailto:vgcicteentalkroom@gmail.com" target="_blank" rel="noopener noreferrer"><button className="parents-cta-btn1">{isMobile ? 'Sponsor' : 'Sponsor this Event'} <img className="parents-cta-btn1-img" src={arrowUp} alt="" /></button></a>
             <a href="https://tix.africa/discover/vgcicteens" target="_blank"><button className="parents-cta-btn2">Get Your Ticket! <img className="parents-cta-btn2-img" src={solarTicket} alt="" /></button></a>
         </div>
     )
