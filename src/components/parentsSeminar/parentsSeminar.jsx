@@ -1,12 +1,14 @@
 import patternTop from "../../assets/img/top-image.png";
 import patternBottom from "../../assets/img/bottom-image.png";
-import teenTalk from "../../assets/img/parents-img.png";
 import "./parentsSeminar.css";
 import ParentsBtn from "../parentBtn/parentBtn";
 function ParentsSeminar() {
     return (
         <div className="parents-seminar">
-            <img className="talk" src={teenTalk} alt="header" />
+            <div className="box-parents">
+                <p className="seminar-heading">Parents Seminar</p>
+                <img className="talk-img" src="./taqwa.svg" alt="header" />
+            </div>
             <h2>We don’t leave our parent out!</h2>
             <div className="parents-paths">
                 <div>Child upbringing</div>

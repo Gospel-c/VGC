@@ -21,7 +21,7 @@ function App() {
   const past = useRef(null)
   const speakers = useRef(null)
 
-  const targetDate = '2024-12-28T23:59:59'; // Set your target date here
+  const targetDate = '2024-12-29T23:59:59'; // Set your target date here
 
   return (
   <div>

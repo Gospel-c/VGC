@@ -46,7 +46,7 @@ const Countdown = ({ targetDate }) => {
                 </div>
                 <div>
                     <img src={calender} alt="calender" />
-                    <p>28th Dec 2024</p>
+                    <p>29th Dec 2024</p>
                 </div>
             </div>
             <a href="https://tix.africa/discover/vgcicteens" target='_blank'>

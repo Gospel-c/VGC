@@ -28,6 +28,10 @@
     height: 143.21px;
 }
 
+.sponsors-img img {
+    width: 222px;
+    height: 143.21px;
+}
 @media screen and (max-width: 768px) {
     .sponsors {
         margin-top: 20px;
@@ -48,6 +52,11 @@
         width: 104.25px;
         height: 67.29px;
         object-fit: cover;
+    }
+
+    .sponsors-img img {
+        width: 89px;
+        height: 58px;
     }
 
 }

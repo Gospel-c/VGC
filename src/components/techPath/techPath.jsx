@@ -8,6 +8,14 @@ import { useEffect, useState } from "react";
 function TechPath() {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
+    const handleClick = () => {
+        window.open(
+          'https://mail.google.com/mail/?view=cm&fs=1&to=vgcicteentalkroom@gmail.com',
+          '_blank' // This specifies to open in a new tab or window
+        );
+      };
+
+
     // Function to detect screen resize and check if it's mobile
  const handleResize = () => {
    setIsMobile(window.innerWidth <= 768);
@@ -24,7 +32,7 @@ function TechPath() {
  }, []);
     return (
         <div className="tech-path">
-            <img className="talk" src={teenTalk} alt="header" />
+            <img className="talk" src="./techh.svg" alt="header" />
             <h2>Learn any of these tech paths in our Tech Edition</h2>
             <div className="paths">
                 <div>Product Design</div>
@@ -33,7 +41,7 @@ function TechPath() {
                 <div>Project Management</div>
             </div>
             <div className="cta-tech">
-                <a href="mailto:vgcicteentalkroom@gmail.com" target="_blank" rel="noopener noreferrer"><button className="tech-cta-btn1">{isMobile ? 'Sponsor' : 'Sponsor this Event'} <img className="tech-cta-btn1-img" src={arrowUp} alt="" /></button></a>
+                <a onClick={handleClick} href="mailto:vgcicteentalkroom@gmail.com" target="_blank" rel="noopener noreferrer"><button className="tech-cta-btn1">{isMobile ? 'To sponsor' : 'Sponsor this Event'} <img className="tech-cta-btn1-img" src={arrowUp} alt="" /></button></a>
                 <a href="https://tix.africa/discover/vgcicteens" target="_blank"><button className="tech-cta-btn2">Get Your Ticket! <img className="tech-cta-btn2-img" src={solarTicket} alt="" /></button></a>
             </div>
             <img

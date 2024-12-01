@@ -11,90 +11,90 @@ function Speakers({speakers}) {
         <div className="speaker-marquee">
           <ul className="speaker-marquee__content">
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./ibrahim.svg" alt="" />
               <div className="speaker-name">
-                <h2>Fawaz Ibrahim</h2>
-                <p>Senior Product Designer, Founder</p>
+                <h2>Ibrahim Salami</h2>
+                <p>Founder barnaamaj</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./fawaz.svg" alt="" />
               <div className="speaker-name">
                     <h2>Fawaz Ibrahim</h2>
                     <p>Senior Product Designer, Founder</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
           </ul>
 
           <ul aria-hidden="true" className="speaker-marquee__content">
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src={speakerImg} alt="" />
+              <img src="./placeholder.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Fawaz Ibrahim</h2>
-                    <p>Senior Product Designer, Founder</p>
+                    <h2>Coming Soon</h2>
+                    <p>Coming Soon</p>
               </div>
             </div>
           </ul>
