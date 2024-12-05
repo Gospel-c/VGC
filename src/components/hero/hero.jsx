@@ -27,7 +27,7 @@ function Hero() {
       <header className="hero">
         <div className="edition">
             <img className="star" src={star} alt="star icon"/>
-            <p className="edition-text">12th Edition coming up 29th Dec 2024</p>
+            <p className="edition-text">11th Edition coming up 29th Dec 2024</p>
             <img className="star" src={star} alt="star icon" />
         </div>
         {/* <img className="vgcic" src={vgcic} /> */}

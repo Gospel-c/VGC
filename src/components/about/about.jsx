@@ -18,7 +18,7 @@ function About({about}) {
     <div className="text">
         <h1 className="heading">We are VGCIC <span>Teen Talk Room</span></h1>
         <p className="paragraph">
-            VGCIC Teen Talk Room is a community event designed for teenagers and pre-teens to deepen their understanding of Islam, learn life skills and grow religiously. It's a safe and supportive space where young teens can;
+            VGCIC Teen Talk Room is a community event designed for teenagers and pre-teens to deepen their understanding of Islam, learn life skills and grow religiously. It's a safe and supportive space where young pre-teens and teens can;
         </p>
         <div className="list">
             <div><img src={dot} alt="" /> <p>Connect with like-minded peers</p></div>

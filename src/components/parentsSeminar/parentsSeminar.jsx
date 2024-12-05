@@ -9,7 +9,7 @@ function ParentsSeminar() {
                 <p className="seminar-heading">Parents Seminar</p>
                 <img className="talk-img" src="./taqwa.svg" alt="header" />
             </div>
-            <h2>We don’t leave our parent out!</h2>
+            <h2>Harnessing synergy for parenting excellence</h2>
             <div className="parents-paths">
                 <div>Child upbringing</div>
                 <div>Children and Tech</div>

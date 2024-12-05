@@ -25,76 +25,90 @@ function Speakers({speakers}) {
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./speaker1.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Abdul Kabir Nasir</h2>
+                    <p>Imaam Al-Jazeerah Mosque</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./speaker2.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Yasmeen-Samiat Adebisi</h2>
+                    <p>Product Designer MTN</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./speaker3.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Abdulqadir Adebayo</h2>
+                    <p>Founder Nexstack</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./speaker4.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Aisha Ola-Mudathir</h2>
+                    <p>Founder MINT.</p>
+              </div>
+            </div>
+            <div className=" speaker-marquee__item">
+              <img src="./speaker5.svg" alt="" />
+              <div className="speaker-name">
+                    <h2>Abdullah Mumuni</h2>
+                    <p>Chairman Muslim Tech Expo</p>
               </div>
             </div>
           </ul>
 
           <ul aria-hidden="true" className="speaker-marquee__content">
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./ibrahim.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Ibrahim Salami</h2>
+                    <p>Founder barnaamaj</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./fawaz.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Fawaz Ibrahim</h2>
+                    <p>Senior Product Designer, Founder</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./speaker1.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Abdul Kabir Nasir</h2>
+                    <p>Imaam Al-Jazeerah Mosque</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./speaker2.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Yasmeen-Samiat Adebisi</h2>
+                    <p>Product Designer MTN</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./speaker3.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Abdulqadir Adebayo</h2>
+                    <p>Founder Nexstack</p>
               </div>
             </div>
             <div className=" speaker-marquee__item">
-              <img src="./placeholder.svg" alt="" />
+              <img src="./speaker4.svg" alt="" />
               <div className="speaker-name">
-                    <h2>Coming Soon</h2>
-                    <p>Coming Soon</p>
+                    <h2>Aisha Ola-Mudathir</h2>
+                    <p>Founder MINT.</p>
+              </div>
+            </div>
+            <div className=" speaker-marquee__item">
+              <img src="./speaker5.svg" alt="" />
+              <div className="speaker-name">
+                    <h2>Abdullah Mumuni</h2>
+                    <p>Chairman Muslim Tech Expo</p>
               </div>
             </div>
           </ul>

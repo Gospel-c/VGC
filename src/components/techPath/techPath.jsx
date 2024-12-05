@@ -39,6 +39,7 @@ function TechPath() {
                 <div>Data Science</div>
                 <div>Web Development</div>
                 <div>Project Management</div>
+                <div>Cybersecurity</div>
             </div>
             <div className="cta-tech">
                 <a onClick={handleClick} href="mailto:vgcicteentalkroom@gmail.com" target="_blank" rel="noopener noreferrer"><button className="tech-cta-btn1">{isMobile ? 'To sponsor' : 'Sponsor this Event'} <img className="tech-cta-btn1-img" src={arrowUp} alt="" /></button></a>
